@@ -8,3 +8,6 @@ div[dir="ltr"] > div > div[class="listItemWrapper-2MsAsM"] { display: none; }
 /* Hides gift and sticker button from chat bar */
 button[aria-label="Send a gift"] { display: none; }
 button[aria-label="Open sticker picker"] { display: none; }
+
+/* Hides boosts goal under server name (toggled on by server staff)*/
+div[aria-label*="Buy Boosts"] { display: none; }
