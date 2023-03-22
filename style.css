@@ -3,7 +3,7 @@ a[href="/store"] { display: none; }
 div[data-list-item-id*="snowsgiving"]  { display: none; }
 
 /* Hides Explore public servers button from server list */
-div[dir="ltr"] > div > div[class="listItemWrapper-2MsAsM"] { display: none; }
+div[aria-label="Explore Public Servers"] { display: none; }
 
 /* Hides gift and sticker button from chat bar */
 button[aria-label="Send a gift"] { display: none; }
