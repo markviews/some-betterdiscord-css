@@ -1,6 +1,5 @@
-/* Hides nitro and showsgiving from DM list*/
+/* Hides nitro button from DM list */
 a[href="/store"] { display: none; }
-div[data-list-item-id*="snowsgiving"]  { display: none; }
 
 /* Hides Explore public servers button from server list */
 div[aria-label="Explore Public Servers"] { display: none; }
@@ -9,5 +8,11 @@ div[aria-label="Explore Public Servers"] { display: none; }
 button[aria-label="Send a gift"] { display: none; }
 button[aria-label="Open sticker picker"] { display: none; }
 
-/* Hides boosts goal under server name (toggled on by server staff)*/
-div[aria-label*="Buy Boosts"] { display: none; }
+/* Hides a few right click buttons */
+[id^="message-quickreact-"] { display: none; }
+[id="message-add-reaction-0"] { display: none; }
+[id="message-add-reaction-1"] { display: none; }
+[id="message-thread"] { display: none; }
+[id="message-mark-unread"] { display: none; }
+[id="message-tts"] { display: none; }
+[id="message-report"] { display: none; }
