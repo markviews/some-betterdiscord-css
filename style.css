@@ -1,17 +1,18 @@
 /* Hides nitro button from DM list */
 a[href="/store"] { display: none; }
+a[href="/shop"] { display: none; }
 
 /* Hides Explore public servers button from server list */
-div[aria-label="Explore Public Servers"] { display: none; }
+div[aria-label="Explore Discoverable Servers"] { display: none; }
 
 /* Hides gift and sticker button from chat bar */
 button[aria-label="Send a gift"] { display: none; }
 button[aria-label="Open sticker picker"] { display: none; }
 
 /* Hides a few right click buttons */
+[id^="message-apps"] { display: none; }
+[id^="message-add-reaction"] { display: none; }
 [id^="message-quickreact-"] { display: none; }
-[id="message-add-reaction-0"] { display: none; }
-[id="message-add-reaction-1"] { display: none; }
 [id="message-thread"] { display: none; }
 [id="message-mark-unread"] { display: none; }
 [id="message-tts"] { display: none; }
